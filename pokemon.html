@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="pokemon.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row action-row">
+            <div class="col-4">
+                <button class=" btn btn-warning" id="hide-type">hide</button>
+            </div>
+            <div class="col4">
+                <select name="pokemontypes" class="form-select" id="pokemontypeoption">
+                <option value="water" selected>water</option>
+                <option value="fire" selected>fire</option>
+                <option value="grass" selected>grass</option>
+                <option value="electric" selected>electric</option>
+                <option value="bug" selected>bug</option>
+                <option value="normal" selected>normal</option>
+                <option value="psychic" selected>psychic</option>
+                <option value="dragon" selected>dragon</option>
+                <option value="ice" selected>ice</option>
+                <option value="poison" selected>poison</option>
+                <option value="ground" selected>ground</option>
+                <option value="rock" selected>rock</option>
+                <option value="fighting" selected>fighting</option>
+            </select>
+            </div>
+            <div class="col-4">
+                <button class="btn btn-primary" id="show-type">show</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="pokemonContainer">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="pokemon.js"></script>
+</body>
+
+</html>
